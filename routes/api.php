@@ -29,8 +29,6 @@ use Illuminate\Support\Facades\Route;
 
     Route::get('/practices', [PracticeController::class, 'index']);
 
-    Route::get('/practices/{id}', [PracticeController::class, 'show']);
-
     Route::post('/practices', [PracticeController::class, 'store']);
 
 //    Route::post('/logout', [AuthController::class, 'logout']);
